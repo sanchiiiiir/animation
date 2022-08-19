@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="./mySite.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <input type="text" placeholder="Change" class="inp" id="inp" />
+    <button class="inpOne" onclick="clickBtn()">Result</button>
+
+    <div class="context">
+        <h1 id="h1">suga zolboot uheech</h1>
+    </div>
+
+
+    <div class="area">
+        <ul class="circles">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+
+    <script>
+      const clickBtn = () =>{
+        const matar = document.getElementById('inp').value
+        document.getElementById('h1').innerHTML = matar
+      }
+
+    </script>
+
+</body>
+
+</html>
