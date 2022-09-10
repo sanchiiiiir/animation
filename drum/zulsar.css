@@ -1,0 +1,73 @@
+*{
+    margin: 0px;
+}
+.container{
+    gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    grid-template-rows: repeat(auto,250px) ;
+    margin-top: 500px;
+}
+.text{
+    color: aliceblue;
+    margin-left: 800px;
+    margin-top: 200px;
+    font-size: 100px;
+    
+}
+#sanchirOne{
+    height: 150px;
+    width: 150px;
+    border: 10px solid;
+    border-color:paleturquoise;
+    border-radius: 20px;
+    background-image: url("./images/tom1.png");
+}
+#sanchirTwo{
+    height: 150px;
+    width: 150px;
+    border: 10px solid;
+    border-color:paleturquoise;
+    border-radius: 20px;
+    background-image: url("./images/tom2.png");
+}
+#sanchirThree{
+    height: 150px;
+    width: 150px;
+    border: 10px solid;
+    border-color:paleturquoise;
+    border-radius: 20px;
+    background-image: url("./images/tom3.png");
+}
+#sanchirFour{
+    height: 150px;
+    width: 150px;
+    border: 10px solid;
+    border-color:paleturquoise;
+    border-radius: 20px;
+    background-image: url("./images/tom-4.mp3");
+}
+#sanchirFive{
+    height:150px;
+    width: 150px;
+    border: 10px solid;
+    border-color:paleturquoise;
+    border-radius: 20px;
+    background-image: url("./images/crash.png");
+}
+#sanchirSix{
+    height: 150px;
+    width: 150px;
+    border: 10px solid;
+    border-color:paleturquoise;
+    border-radius: 20px;
+    background-image: url("./images/kick.png");
+}
+#sanchirSeven{
+    height: 150px;
+    width: 150px;
+    border: 10px solid;
+    border-color:paleturquoise;
+    border-radius: 20px;
+    background-image: url("./images/snare.png");
+}
